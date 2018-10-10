@@ -33,6 +33,7 @@ var QrCode = {
       placeHolder.style.left = 0;
       placeHolder.style.top = 0;
       placeHolder.style.zIndex = 9999;
+      placeHolder.style.fontSize = 0;
       placeHolder.appendChild(img);
       document.body.appendChild(placeHolder);
       return placeHolder;
